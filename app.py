@@ -15,7 +15,7 @@ model={
 b=[]
 o=0
 while True:
-	c=st.number_input(f"enter your sem {o+1} grade",0.0,9.0)
+	c=st.number_input(f"enter your sem {o+1} grade",0.0,10.0)
 	b.append(c)
 	o+=1
 	if b[-1]==0.00 or o==7:
